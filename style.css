@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    font-family: "Montserrat", sans-serif;
+    font-size: 62.5%;
+    background-color: #151515;
+}
+
+a{
+    text-decoration: none;
+}
+a:visited{
+    color:#000000
+}
+
+li{
+    list-style: none;
+}
+
+/* ####################  Utility Classes  #################### */
+/* ####################  Utility Classes  #################### */
+/* ####################  Utility Classes  #################### */
+/* ####################  Utility Classes  #################### */
+/* ####################  Utility Classes  #################### */
+
+.container{
+    /* border: 2px solid #000; */
+    max-width: 1200px;
+    margin: auto;
+}
+
+.main-title{
+    border-bottom: 1px solid #484848;
+    max-width: fit-content;
+    min-width: 30%;
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 5rem;
+}
+
+.second-title{
+    border-bottom: 1px solid #000000;
+    max-width: fit-content;
+    min-width: 30%;
+    font-size: 3rem;
+    color: #000000;
+    margin-bottom: 5rem;
+}
+
+.section-boxes{
+    padding: 5rem 10rem;
+    display: flex;
+    width: 100%;
+    gap: 5rem;
+}
+
+.section-boxes .left-side-div{
+    /* border: 2px solid #fff; */
+    min-width: 30%;
+ 
+}
+
+.section-boxes .right-side-div{
+    /* border: 2px solid #fff; */
+    font-size: 2rem;
+    /* color: #b4b4b4; */
+}
+
+
+main{
+}
+
+
+/* ####################  Header page styling  #################### */
+/* ####################  Header page styling  #################### */
+/* ####################  Header page styling  #################### */
+/* ####################  Header page styling  #################### */
+/* ####################  Header page styling  #################### */
+
+.header{
+    position: relative;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url("./Images/header-bg-3000.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid #000;
+    height: 100vh;
+    /* margin: 0 0 10rem 0 ; */
+}
+
+.header__nav ul{
+    padding: 4rem 0;
+    display: flex;
+    justify-content: space-between;
+    max-width: 50%;
+    margin: auto;
+}
+
+.header__nav ul li a{
+    font-size: 2rem;
+    color: #b4b4b4;
+}
+
+.header__nav ul li a:hover{
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+}
+
+
+.hero{
+    height: 80%;
+    padding: 0 20rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-heading{
+    font-size: 7rem;
+    color: #fff;
+}
+
+.info{
+    font-size: 2.7rem;
+    color: #fff;
+}
+
+.s-hero__content-social {
+    padding: 3rem;
+}
+
+.s-hero__content-social a{
+    padding: 2rem;
+    color: #fff;
+    font-size: 3rem;
+}
+
+
+.s-hero__scroll{
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+}
+
+/* ####################  Header page styling  #################### */
+/* ####################  Header page styling  #################### */
+/* ####################  Header page styling  #################### */
+/* ####################  Header page styling  #################### */
+/* ####################  Header page styling  #################### */
+
+.my-image{
+    width: 200px;
+    height: 200px;
+}
+
+.my-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 20px solid #484848;
+}
+
+.info-wrapper p{
+    color: #b4b4b4;
+    font-size: 2rem;
+    line-height: 35px;
+}
+
+.info-wrapper{
+    padding-bottom: 5rem;
+    border-bottom: 0.5px solid #484848;
+}
+
+.about-me{
+    margin-top: 17rem;
+}
+
+
+.contact-details{
+    margin: 5rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.address p{
+    font-size: 2rem;
+    max-width: 50%;
+    color: #b4b4b4;
+}
+
+.cv-section{
+    width: 50%;
+}
+
+.cv-section button{
+    font-weight: 500;
+    text-transform: uppercase;
+    border: none;
+    padding: 2rem 6rem;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.cv-section button:hover{
+    background-color: #484848;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+
+/* ####################  Header page styling  #################### */
+/* ####################  Header page styling  #################### */
+/* ####################  Header page styling  #################### */
+/* ####################  Header page styling  #################### */
+/* ####################  Header page styling  #################### */
+
+
+.skills{
+    background-color: #b4b4b4;
+    color: #000;
+}
+
+.skills-wrapper{
+    padding-bottom: 15rem;
+}
+
+.skills-list{
+    margin: 2rem 0;
+    padding: 3rem 0 ;
+}
+.skill-heading{
+    margin-bottom: 0.5rem;
+}
+
+.bar-fill-1{
+    height: 100%;
+    width: 85%;
+    background-color: #000;
+}
+
+.bar-fill-2{
+    height: 100%;
+    width: 75%;
+    background-color: #000;
+}
+
+.bar-fill-3{
+    height: 100%;
+    width: 70%;
+    background-color: #000;
+}
+
+.bar-fill-4{
+    height: 100%;
+    width: 75%;
+    background-color: #000;
+}
+
+.bar-fill-5{
+    height: 100%;
+    width: 65%;
+    background-color: #000;
+}
+
+.bar-fill-6{
+    height: 100%;
+    width: 70%;
+    background-color: #000;
+}
+
+.bar-fill-7{
+    height: 100%;
+    width: 75%;
+    background-color: #000;
+}
+
+
+.skill-bar{
+    height: 4rem;
+    width: 90%;
+    background-color: #ffffff;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.each-skill{
+    margin: 2rem 0;
+}
