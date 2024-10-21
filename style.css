@@ -296,6 +296,95 @@ main{
     overflow: hidden;
 }
 
-.each-skill{
-    margin: 2rem 0;
+
+/* ####################  Header page styling  #################### */
+/* ####################  Header page styling  #################### */
+/* ####################  Header page styling  #################### */
+/* ####################  Header page styling  #################### */
+/* ####################  Header page styling  #################### */
+
+.projects{
+    background-color: #b4b4b4;
+    margin-top: -10px;
+}
+
+.projects-title{
+    text-align: center;
+    font-size: 2rem;
+    padding: 5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 0.5px solid #484848;
+}
+
+.projects-title h1{
+    width: fit-content;
+    border-bottom: #000;
+}
+
+.main-project-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-wrapper{
+    margin-bottom: 10rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0px;
+    width: fit-content;
+    max-width: 1000px;
+}
+
+.image-wrapper{
+    overflow: hidden;
+    width: 20rem;
+    height: 20rem;
+}
+
+.project{
+    height: 100%;
+    width: 100%;
+}
+
+.project img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project:hover img {
+    filter: brightness(50%);
+    transition: all 0.3s ease-in-out;
+}
+
+.project:hover{
+    transform: scale(1.09);
+    transition: all 0.3s ease-in-out;
+}
+
+
+/* ####################  Header page styling  #################### */
+/* ####################  Header page styling  #################### */
+/* ####################  Header page styling  #################### */
+/* ####################  Header page styling  #################### */
+/* ####################  Header page styling  #################### */
+
+/* ###############################  FOOTER STYLING  ############################### */
+.footer{
+    background-color: #151515;
+    color: #f4f4f4;
+    padding: 4rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.footer p{
+    font-size: 2rem;
+}
+
+.social-media-links i{
+    margin: 2rem;
 }
