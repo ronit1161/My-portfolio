@@ -30,7 +30,6 @@ li{
 /* ####################  Utility Classes  #################### */
 
 .container{
-    /* border: 2px solid #000; */
     max-width: 1200px;
     margin: auto;
 }
@@ -72,9 +71,6 @@ li{
     /* color: #b4b4b4; */
 }
 
-
-main{
-}
 
 
 /* ####################  Header page styling  #################### */
