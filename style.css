@@ -114,6 +114,7 @@ main{
 
 
 .hero{
+    border: 2px solid black;
     height: 80%;
     padding: 0 20rem;
     text-align: center;
@@ -327,6 +328,7 @@ main{
 
 .main-project-wrapper{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -349,6 +351,7 @@ main{
 .project{
     height: 100%;
     width: 100%;
+    overflow: hidden;
 }
 
 .project img{
